@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Home = () => {
+    useEffect(()=>{
+        alert("hi");
+    },[])
     return (
         <>
             <div>
